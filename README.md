@@ -1,4 +1,4 @@
-# Vehicle Management System - Java Project1
+# Vehicle Management System - Java Project-1
 
 ## 🎯 Objective
 Design a simple **Vehicle Management System** in Java demonstrating key OOP concepts such as:
@@ -45,10 +45,23 @@ Create two subclasses extending the `Vehicle` class:
   Convert `Vehicle` references back to `Car` and `Bike` to access subclass-specific properties.
 
 ---
+## 📁 Project Structure
 
-## 🛠️ Technologies Used
-- Java (OOP Concepts)
-
+```
+.settings/
+└── (various Eclipse settings files)
+bin/
+src/
+└── Project1/
+    ├── Bike.java
+    ├── Car.java
+    ├── Test.java
+    ├── Vehicle.java
+    └── module-info.java
+.classpath
+.project
+README.md
+```
 ---
 
 ## 💻 Sample Output
@@ -58,5 +71,10 @@ Brand is : Range Rover
 Speed is : 1000  
 Brand is : BMW  
 Speed is : 1000
+
+---
+
+## 🛠️ Technologies Used
+- Java (OOP Concepts)
 
 
